@@ -45,7 +45,7 @@ sudo apt install make clang pkg-config libssl-dev build-essential tmux -y
 ```
 
 ```
-sudo apt install make clang pkg-config libssl-dev build-essential tmux -y
+sudo apt install screen
 ```
 
 ```
