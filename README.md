@@ -1,5 +1,6 @@
 ![image](https://github.com/Mozgiii9/PenumbraSetupTheNode/assets/74683169/6f15c932-475f-4087-a8d7-e2f423a5c549)
 
+## Дата обновления гайда: 16.05.2024
 
 ## Дата создания гайда: 10.04.2024
 
