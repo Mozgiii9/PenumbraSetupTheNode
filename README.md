@@ -72,7 +72,7 @@ source ~/.cargo/env
 **Следующая команда идет целиком. Вставляем в терминал и нажимаем ENTER:**
 
 ```
-curl -sSfL -O https://github.com/penumbra-zone/penumbra/releases/download/v0.71.0/pcli-x86_64-unknown-linux-gnu.tar.xz
+curl -sSfL -O https://github.com/penumbra-zone/penumbra/releases/download/v0.75.0/pcli-x86_64-unknown-linux-gnu.tar.gz
 unxz pcli-x86_64-unknown-linux-gnu.tar.xz
 tar -xf pcli-x86_64-unknown-linux-gnu.tar
 sudo mv pcli-x86_64-unknown-linux-gnu/pcli /usr/local/bin/
