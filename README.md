@@ -55,33 +55,18 @@ sudo apt-get install git-lfs
 **3. Продолжаем установку. Выполним команды, связанные с запуском Penumbra:**
 
 ```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/releases/download/v0.75.0/pcli-installer.sh | sh
+```
+
+```
 source ~/.cargo/env
 ```
 
-*Команда выше вставляется целиком. Обратите внимание на скрин ниже:*
-
-![image](https://github.com/Mozgiii9/PenumbraSetupTheNode/assets/74683169/3385acb4-97c2-4522-9d77-192603f52694)
-
-Просто нажимаем ENTER и ждем конца установки.
-
-![image](https://github.com/Mozgiii9/PenumbraSetupTheNode/assets/74683169/51c9996d-9666-4ad1-985d-d2500fd0bb54)
-
-*Скрин выше говорит о том, что все успешно установилось.*
-
-**Следующая команда идет целиком. Вставляем в терминал и нажимаем ENTER:**
+**Проверим версию установленного pcli:**
 
 ```
-curl -sSfL -O https://github.com/penumbra-zone/penumbra/releases/download/v0.75.0/pcli-x86_64-unknown-linux-gnu.tar.gz
-unxz pcli-x86_64-unknown-linux-gnu.tar.xz
-tar -xf pcli-x86_64-unknown-linux-gnu.tar
-sudo mv pcli-x86_64-unknown-linux-gnu/pcli /usr/local/bin/
 pcli --version
 ```
-
-![image](https://github.com/Mozgiii9/PenumbraSetupTheNode/assets/74683169/6c7fcbbb-8295-45ac-ac8b-751c8913260a)
-
-*Должен появиться такой вывод.*
 
 **4. Создаем кошелек, внимательно анализируем вывод сервера. В выводе будет Seed фраза, сохраняем ее в надежное место:**
 
@@ -90,7 +75,6 @@ pcli init soft-kms generate
 ```
 
 ![image](https://github.com/Mozgiii9/PenumbraSetupTheNode/assets/74683169/d6c8f65f-3cae-43c8-8b2a-4678784e33b8)
-
 
 Отлично. Теперь узнаем адрес кошелька. Для этого переходим в браузер Chrome и качаем расширение [Penumbra Wallet](https://chromewebstore.google.com/detail/penumbra-wallet/lkpmkhpnhknhmibgnmmhdhgdilepfghe)
 
